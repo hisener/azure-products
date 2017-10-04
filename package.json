@@ -1,0 +1,40 @@
+{
+  "name": "azure-products",
+  "version": "1.0.0",
+  "description": "List of Microsoft Azure products",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && npm run test-node",
+    "test-node": "tape test/**/*.js"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js",
+    "azure-products.json"
+  ],
+  "keywords": [
+    "microsoft",
+    "azure",
+    "products",
+    "list"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hisener/azure-products.git"
+  },
+  "author": {
+    "name": "Halil İbrahim Şener",
+    "email": "hisener@yahoo.com",
+    "url": "halilsener.com"
+  },
+  "license": "MIT"
+}
