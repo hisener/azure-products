@@ -1,4 +1,4 @@
-# iterative-gcd [![Build Status][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][npm-url]
+# azure-products [![Build Status][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][npm-url]
 
 > List of Microsoft Azure products
 
@@ -6,7 +6,7 @@ It's just a JSON file that can be used in any environment.
 
 [travis-image]: https://travis-ci.org/hisener/azure-products.svg?branch=master
 [travis-url]: https://travis-ci.org/hisener/azure-products
-[npm-image]: https://img.shields.io/npm/v/azure-products
+[npm-image]: https://img.shields.io/npm/v/azure-products.svg
 [npm-url]: https://www.npmjs.com/package/azure-products
 [downloads-image]: https://img.shields.io/npm/dm/azure-products.svg
 
