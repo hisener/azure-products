@@ -12,8 +12,10 @@ const options = {
 rp(options)
   .then(function ($) {
     let products = []
-    $('#wa-dropdown-service option').each(function () {
-      products.push($(this).text())
+    $('#wa-dropdown-service').find('option').each(function () {
+      if (products.indexOf($(this).text()) === -1) {
+        products.push($(this).text())
+      }
     })
     products.shift()
     return products
