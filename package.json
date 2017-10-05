@@ -19,7 +19,9 @@
   },
   "files": [
     "index.js",
-    "azure-products.json"
+    "detailed.js",
+    "azure-products.json",
+    "azure-products-detailed.json"
   ],
   "keywords": [
     "microsoft",
