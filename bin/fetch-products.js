@@ -13,12 +13,13 @@ rp(options)
   .then(function ($) {
     let products = []
     $('#wa-dropdown-service').find('option').each(function () {
-      if (products.indexOf($(this).text()) === -1) {
-        products.push($(this).text())
+      let product = removeUnnecessaryWords($(this).text())
+      if (products.indexOf(product) === -1) {
+        products.push(product)
       }
     })
     products.shift()
-    return products
+    return products.sort()
   })
   .then(function (products) {
     fs.writeFileSync('./azure-products.json', JSON.stringify(products, null, 2), 'utf-8')
@@ -26,3 +27,10 @@ rp(options)
   .catch(function (err) {
     console.error(err)
   })
+
+function removeUnnecessaryWords (str) {
+  if (str.indexOf('Azure') === 0) {
+    return str.substr(str.indexOf(' ') + 1)
+  }
+  return str
+}

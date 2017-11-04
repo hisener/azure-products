@@ -30,9 +30,75 @@
     ]
   },
   {
+    "name": "Active Directory",
+    "regions": [
+      "Non-Regional",
+      "Germany Non-Regional"
+    ]
+  },
+  {
+    "name": "Active Directory B2C",
+    "regions": [
+      "Non-Regional"
+    ]
+  },
+  {
+    "name": "Active Directory Domain Services",
+    "regions": [
+      "East US",
+      "East US 2",
+      "Central US",
+      "North Central US",
+      "South Central US",
+      "West Central US",
+      "West US",
+      "West US 2",
+      "Canada East",
+      "Canada Central",
+      "Brazil South",
+      "North Europe",
+      "West Europe",
+      "Southeast Asia",
+      "East Asia",
+      "Australia East",
+      "Australia Southeast",
+      "Central India",
+      "West India",
+      "South India",
+      "Japan East",
+      "Japan West"
+    ]
+  },
+  {
     "name": "Activity Logs & Alerts",
     "regions": [
       "Non-Regional"
+    ]
+  },
+  {
+    "name": "Advisor",
+    "regions": [
+      "Non-Regional"
+    ]
+  },
+  {
+    "name": "Analysis Services",
+    "regions": [
+      "East US 2",
+      "North Central US",
+      "South Central US",
+      "West Central US",
+      "West US",
+      "Canada Central",
+      "Brazil South",
+      "North Europe",
+      "West Europe",
+      "UK South",
+      "Germany Central",
+      "Southeast Asia",
+      "Australia Southeast",
+      "West India",
+      "Japan East"
     ]
   },
   {
@@ -264,269 +330,6 @@
     ]
   },
   {
-    "name": "Azure Active Directory",
-    "regions": [
-      "Non-Regional",
-      "Germany Non-Regional"
-    ]
-  },
-  {
-    "name": "Azure Active Directory B2C",
-    "regions": [
-      "Non-Regional"
-    ]
-  },
-  {
-    "name": "Azure Active Directory Domain Services",
-    "regions": [
-      "East US",
-      "East US 2",
-      "Central US",
-      "North Central US",
-      "South Central US",
-      "West Central US",
-      "West US",
-      "West US 2",
-      "Canada East",
-      "Canada Central",
-      "Brazil South",
-      "North Europe",
-      "West Europe",
-      "Southeast Asia",
-      "East Asia",
-      "Australia East",
-      "Australia Southeast",
-      "Central India",
-      "West India",
-      "South India",
-      "Japan East",
-      "Japan West"
-    ]
-  },
-  {
-    "name": "Azure Advisor",
-    "regions": [
-      "Non-Regional"
-    ]
-  },
-  {
-    "name": "Azure Analysis Services",
-    "regions": [
-      "East US 2",
-      "North Central US",
-      "South Central US",
-      "West Central US",
-      "West US",
-      "Canada Central",
-      "Brazil South",
-      "North Europe",
-      "West Europe",
-      "UK South",
-      "Germany Central",
-      "Southeast Asia",
-      "Australia Southeast",
-      "West India",
-      "Japan East"
-    ]
-  },
-  {
-    "name": "Azure Bot Service",
-    "regions": [
-      "East US 2",
-      "Central US",
-      "North Central US",
-      "South Central US",
-      "West US",
-      "West US 2",
-      "Brazil South",
-      "North Europe",
-      "West Europe",
-      "Southeast Asia",
-      "East Asia",
-      "Australia East",
-      "Australia Southeast",
-      "Japan East",
-      "Japan West"
-    ]
-  },
-  {
-    "name": "Azure Cosmos DB",
-    "regions": [
-      "East US",
-      "East US 2",
-      "Central US",
-      "North Central US",
-      "South Central US",
-      "West Central US",
-      "West US",
-      "West US 2",
-      "Canada East",
-      "Canada Central",
-      "Brazil South",
-      "North Europe",
-      "West Europe",
-      "UK West",
-      "UK South",
-      "Germany Central",
-      "Germany Northeast",
-      "Southeast Asia",
-      "East Asia",
-      "Australia East",
-      "Australia Southeast",
-      "Central India",
-      "West India",
-      "South India",
-      "Japan East",
-      "Japan West",
-      "Korea Central",
-      "Korea South"
-    ]
-  },
-  {
-    "name": "Azure Database for MySQL",
-    "regions": [
-      "East US",
-      "East US 2",
-      "North Central US",
-      "South Central US",
-      "West US",
-      "North Europe",
-      "West Europe",
-      "Southeast Asia",
-      "East Asia",
-      "Central India",
-      "West India",
-      "Japan East",
-      "Japan West"
-    ]
-  },
-  {
-    "name": "Azure Database for PostgreSQL",
-    "regions": [
-      "East US",
-      "East US 2",
-      "North Central US",
-      "South Central US",
-      "West US",
-      "North Europe",
-      "West Europe",
-      "Southeast Asia",
-      "East Asia",
-      "Central India",
-      "West India",
-      "Japan East",
-      "Japan West"
-    ]
-  },
-  {
-    "name": "Azure DDoS Protection",
-    "regions": [
-      "East US",
-      "West Central US",
-      "West US"
-    ]
-  },
-  {
-    "name": "Azure DevTest Labs",
-    "regions": [
-      "East US",
-      "East US 2",
-      "Central US",
-      "North Central US",
-      "South Central US",
-      "West Central US",
-      "West US",
-      "West US 2",
-      "Canada East",
-      "Canada Central",
-      "Brazil South",
-      "North Europe",
-      "West Europe",
-      "UK West",
-      "UK South",
-      "Southeast Asia",
-      "East Asia",
-      "Australia East",
-      "Australia Southeast",
-      "Central India",
-      "South India",
-      "Japan East",
-      "Japan West",
-      "Korea Central",
-      "Korea South"
-    ]
-  },
-  {
-    "name": "Azure DNS",
-    "regions": [
-      "Non-Regional"
-    ]
-  },
-  {
-    "name": "Azure Monitor",
-    "regions": [
-      "East US",
-      "East US 2",
-      "Central US",
-      "North Central US",
-      "South Central US",
-      "West Central US",
-      "West US",
-      "West US 2",
-      "Canada East",
-      "Canada Central",
-      "Brazil South",
-      "North Europe",
-      "West Europe",
-      "Germany Central",
-      "Germany Northeast",
-      "Southeast Asia",
-      "East Asia",
-      "Australia East",
-      "Australia Southeast",
-      "Central India",
-      "West India",
-      "South India",
-      "Japan East",
-      "Japan West",
-      "Korea Central",
-      "Korea South"
-    ]
-  },
-  {
-    "name": "Azure Policy",
-    "regions": [
-      "Non-Regional"
-    ]
-  },
-  {
-    "name": "Azure Resource Manager",
-    "regions": [
-      "Non-Regional",
-      "Germany Non-Regional"
-    ]
-  },
-  {
-    "name": "Azure Search",
-    "regions": [
-      "East US",
-      "North Central US",
-      "South Central US",
-      "West Central US",
-      "West US",
-      "Canada Central",
-      "Brazil South",
-      "North Europe",
-      "West Europe",
-      "UK South",
-      "Southeast Asia",
-      "East Asia",
-      "Australia East",
-      "Central India",
-      "Japan West"
-    ]
-  },
-  {
     "name": "azure.microsoft.com",
     "regions": [
       "Non-Regional"
@@ -598,7 +401,19 @@
     ]
   },
   {
+    "name": "Batch AI",
+    "regions": [
+      "East US"
+    ]
+  },
+  {
     "name": "Bing Autosuggest API",
+    "regions": [
+      "Non-Regional"
+    ]
+  },
+  {
+    "name": "Bing Custom Search API",
     "regions": [
       "Non-Regional"
     ]
@@ -648,6 +463,26 @@
       "North Central US",
       "South Central US",
       "West US",
+      "Brazil South",
+      "North Europe",
+      "West Europe",
+      "Southeast Asia",
+      "East Asia",
+      "Australia East",
+      "Australia Southeast",
+      "Japan East",
+      "Japan West"
+    ]
+  },
+  {
+    "name": "Bot Service",
+    "regions": [
+      "East US 2",
+      "Central US",
+      "North Central US",
+      "South Central US",
+      "West US",
+      "West US 2",
       "Brazil South",
       "North Europe",
       "West Europe",
@@ -746,28 +581,35 @@
     "name": "Container Registry",
     "regions": [
       "East US",
-      "West Central US",
-      "West Europe"
-    ]
-  },
-  {
-    "name": "Container Service",
-    "regions": [
-      "East US",
       "East US 2",
       "Central US",
       "North Central US",
       "South Central US",
+      "West Central US",
       "West US",
+      "West US 2",
+      "Canada East",
+      "Canada Central",
       "Brazil South",
       "North Europe",
       "West Europe",
+      "UK West",
+      "UK South",
       "Southeast Asia",
       "East Asia",
       "Australia East",
       "Australia Southeast",
+      "Central India",
+      "South India",
       "Japan East",
       "Japan West"
+    ]
+  },
+  {
+    "name": "Container Service (AKS)",
+    "regions": [
+      "West US 2",
+      "UK West"
     ]
   },
   {
@@ -791,6 +633,39 @@
       "Southeast Asia",
       "East Asia",
       "Australia East"
+    ]
+  },
+  {
+    "name": "Cosmos DB",
+    "regions": [
+      "East US",
+      "East US 2",
+      "Central US",
+      "North Central US",
+      "South Central US",
+      "West Central US",
+      "West US",
+      "West US 2",
+      "Canada East",
+      "Canada Central",
+      "Brazil South",
+      "North Europe",
+      "West Europe",
+      "UK West",
+      "UK South",
+      "Germany Central",
+      "Germany Northeast",
+      "Southeast Asia",
+      "East Asia",
+      "Australia East",
+      "Australia Southeast",
+      "Central India",
+      "West India",
+      "South India",
+      "Japan East",
+      "Japan West",
+      "Korea Central",
+      "Korea South"
     ]
   },
   {
@@ -819,6 +694,13 @@
       "West Central US",
       "West US",
       "North Europe"
+    ]
+  },
+  {
+    "name": "Data Factory V2",
+    "regions": [
+      "East US",
+      "East US 2"
     ]
   },
   {
@@ -861,7 +743,108 @@
     ]
   },
   {
+    "name": "Data Movement & Dispatch",
+    "regions": [
+      "East US",
+      "East US 2",
+      "Central US",
+      "North Central US",
+      "South Central US",
+      "West Central US",
+      "West US",
+      "Canada Central",
+      "Brazil South",
+      "North Europe",
+      "West Europe",
+      "UK South",
+      "Southeast Asia",
+      "Australia East",
+      "Australia Southeast",
+      "Central India",
+      "Japan East",
+      "Korea Central"
+    ]
+  },
+  {
+    "name": "Database for MySQL",
+    "regions": [
+      "East US",
+      "East US 2",
+      "North Central US",
+      "South Central US",
+      "West US",
+      "Canada East",
+      "Canada Central",
+      "Brazil South",
+      "North Europe",
+      "West Europe",
+      "Southeast Asia",
+      "East Asia",
+      "Central India",
+      "West India",
+      "Japan East",
+      "Japan West"
+    ]
+  },
+  {
+    "name": "Database for PostgreSQL",
+    "regions": [
+      "East US",
+      "East US 2",
+      "North Central US",
+      "South Central US",
+      "West US",
+      "Canada East",
+      "Canada Central",
+      "Brazil South",
+      "North Europe",
+      "West Europe",
+      "Southeast Asia",
+      "East Asia",
+      "Central India",
+      "West India",
+      "Japan East",
+      "Japan West"
+    ]
+  },
+  {
+    "name": "DevTest Labs",
+    "regions": [
+      "East US",
+      "East US 2",
+      "Central US",
+      "North Central US",
+      "South Central US",
+      "West Central US",
+      "West US",
+      "West US 2",
+      "Canada East",
+      "Canada Central",
+      "Brazil South",
+      "North Europe",
+      "West Europe",
+      "UK West",
+      "UK South",
+      "Southeast Asia",
+      "East Asia",
+      "Australia East",
+      "Australia Southeast",
+      "Central India",
+      "South India",
+      "Japan East",
+      "Japan West",
+      "Korea Central",
+      "Korea South"
+    ]
+  },
+  {
     "name": "Diagnostic Logs",
+    "regions": [
+      "Non-Regional"
+    ]
+  },
+  {
+    "name": "DNS",
     "regions": [
       "Non-Regional"
     ]
@@ -1364,6 +1347,12 @@
     ]
   },
   {
+    "name": "Managed Applications",
+    "regions": [
+      "Non-Regional"
+    ]
+  },
+  {
     "name": "Marketplace",
     "regions": [
       "Non-Regional"
@@ -1439,6 +1428,14 @@
     ]
   },
   {
+    "name": "Microsoft Genomics",
+    "regions": [
+      "West US 2",
+      "West Europe",
+      "East Asia"
+    ]
+  },
+  {
     "name": "Mobile Apps",
     "regions": [
       "East US",
@@ -1476,6 +1473,37 @@
     "regions": [
       "Central US",
       "North Europe"
+    ]
+  },
+  {
+    "name": "Monitor",
+    "regions": [
+      "East US",
+      "East US 2",
+      "Central US",
+      "North Central US",
+      "South Central US",
+      "West Central US",
+      "West US",
+      "West US 2",
+      "Canada East",
+      "Canada Central",
+      "Brazil South",
+      "North Europe",
+      "West Europe",
+      "Germany Central",
+      "Germany Northeast",
+      "Southeast Asia",
+      "East Asia",
+      "Australia East",
+      "Australia Southeast",
+      "Central India",
+      "West India",
+      "South India",
+      "Japan East",
+      "Japan West",
+      "Korea Central",
+      "Korea South"
     ]
   },
   {
@@ -1522,10 +1550,11 @@
     "name": "Network Performance Monitor",
     "regions": [
       "East US",
+      "West Central US",
+      "West US",
       "West Europe",
-      "UK South",
       "Southeast Asia",
-      "Japan East"
+      "Australia Southeast"
     ]
   },
   {
@@ -1569,12 +1598,13 @@
       "South Central US",
       "West Central US",
       "West US",
-      "West US 2",
       "Canada East",
       "Canada Central",
       "Brazil South",
       "North Europe",
       "West Europe",
+      "Germany Central",
+      "Germany Northeast",
       "Southeast Asia",
       "East Asia",
       "Australia East",
@@ -1584,6 +1614,12 @@
       "South India",
       "Japan East",
       "Japan West"
+    ]
+  },
+  {
+    "name": "Policy",
+    "regions": [
+      "Non-Regional"
     ]
   },
   {
@@ -1653,6 +1689,13 @@
     ]
   },
   {
+    "name": "Resource Manager",
+    "regions": [
+      "Non-Regional",
+      "Germany Non-Regional"
+    ]
+  },
+  {
     "name": "SAP HANA on Azure Large Instances",
     "regions": [
       "East US",
@@ -1694,6 +1737,26 @@
       "Japan West",
       "Korea Central",
       "Korea South"
+    ]
+  },
+  {
+    "name": "Search",
+    "regions": [
+      "East US",
+      "North Central US",
+      "South Central US",
+      "West Central US",
+      "West US",
+      "Canada Central",
+      "Brazil South",
+      "North Europe",
+      "West Europe",
+      "UK South",
+      "Southeast Asia",
+      "East Asia",
+      "Australia East",
+      "Central India",
+      "Japan West"
     ]
   },
   {
@@ -1915,6 +1978,13 @@
     ]
   },
   {
+    "name": "SSIS Integration Runtime",
+    "regions": [
+      "East US",
+      "North Europe"
+    ]
+  },
+  {
     "name": "Storage",
     "regions": [
       "East US",
@@ -1953,22 +2023,15 @@
       "East US",
       "West Central US",
       "West US",
-      "West US 2",
-      "Canada East",
-      "Canada Central",
       "Brazil South",
       "North Europe",
       "West Europe",
-      "UK West",
-      "UK South",
       "Southeast Asia",
       "East Asia",
       "Australia East",
       "Australia Southeast",
       "Japan East",
-      "Japan West",
-      "Korea Central",
-      "Korea South"
+      "Japan West"
     ]
   },
   {
@@ -2003,11 +2066,18 @@
   {
     "name": "Text Analytics API",
     "regions": [
+      "East US",
       "East US 2",
+      "South Central US",
       "West Central US",
       "West US",
+      "West US 2",
+      "Brazil South",
+      "North Europe",
       "West Europe",
-      "Southeast Asia"
+      "Southeast Asia",
+      "East Asia",
+      "Australia East"
     ]
   },
   {

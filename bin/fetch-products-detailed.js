@@ -34,7 +34,7 @@ function getDetailedProducts ($) {
     // fill products
     $(this).find('tr').not('.status-category').each(function () {
       let regionIndex = 0
-      let currentProduct = $(this).find('td').first().text()
+      let currentProduct = removeUnnecessaryWords($(this).find('td').first().text())
 
       $(this).find('td').each(function () {
         if ($(this).hasClass('status-cell')) {
@@ -57,4 +57,11 @@ function getDetailedProducts ($) {
   return Object.keys(products).map(key => products[key]).sort(function (a, b) {
     return a.name.localeCompare(b.name)
   })
+}
+
+function removeUnnecessaryWords (str) {
+  if (str.indexOf('Azure') === 0) {
+    return str.substr(str.indexOf(' ') + 1)
+  }
+  return str
 }

@@ -48,6 +48,9 @@ node ./bin/fetch-products.js
 node ./bin/fetch-products-detailed.js
 ```
 
+## Related
+* [aws-products](https://github.com/hisener/aws-products) - List of Amazon Web Services (AWS) products
+
 ## License
 
 MIT. Copyright (C) [Halil İbrahim Şener](https://halilsener.com).
