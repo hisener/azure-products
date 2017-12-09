@@ -19,7 +19,9 @@ rp(options)
       }
     })
     products.shift()
-    return products.sort()
+    return products.sort(function (a, b) {
+      return a.localeCompare(b)
+    })
   })
   .then(function (products) {
     fs.writeFileSync('./azure-products.json', JSON.stringify(products, null, 2), 'utf-8')

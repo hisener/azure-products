@@ -608,8 +608,9 @@
   {
     "name": "Container Service (AKS)",
     "regions": [
-      "West US 2",
-      "UK West"
+      "East US",
+      "Central US",
+      "West Europe"
     ]
   },
   {
@@ -690,7 +691,6 @@
     "name": "Data Factory",
     "regions": [
       "East US",
-      "East US 2",
       "West Central US",
       "West US",
       "North Europe"
@@ -699,8 +699,7 @@
   {
     "name": "Data Factory V2",
     "regions": [
-      "East US",
-      "East US 2"
+      "East US"
     ]
   },
   {
@@ -723,7 +722,6 @@
     "name": "Data Movement",
     "regions": [
       "East US",
-      "East US 2",
       "Central US",
       "North Central US",
       "South Central US",
@@ -746,7 +744,6 @@
     "name": "Data Movement & Dispatch",
     "regions": [
       "East US",
-      "East US 2",
       "Central US",
       "North Central US",
       "South Central US",
@@ -805,6 +802,17 @@
       "West India",
       "Japan East",
       "Japan West"
+    ]
+  },
+  {
+    "name": "Database Migration Service",
+    "regions": [
+      "East US",
+      "South Central US",
+      "West US",
+      "Brazil South",
+      "North Europe",
+      "West Europe"
     ]
   },
   {
@@ -1268,6 +1276,14 @@
     ]
   },
   {
+    "name": "Location Based Services",
+    "regions": [
+      "East US",
+      "West US",
+      "West Europe"
+    ]
+  },
+  {
     "name": "Log Analytics",
     "regions": [
       "East US",
@@ -1436,6 +1452,12 @@
     ]
   },
   {
+    "name": "Migrate",
+    "regions": [
+      "West Central US"
+    ]
+  },
+  {
     "name": "Mobile Apps",
     "regions": [
       "East US",
@@ -1551,7 +1573,6 @@
     "regions": [
       "East US",
       "West Central US",
-      "West US",
       "West Europe",
       "Southeast Asia",
       "Australia Southeast"
@@ -1561,31 +1582,10 @@
     "name": "Network Watcher",
     "regions": [
       "East US",
-      "East US 2",
-      "Central US",
-      "North Central US",
-      "South Central US",
       "West Central US",
-      "West US",
-      "West US 2",
-      "Canada East",
-      "Canada Central",
-      "Brazil South",
-      "North Europe",
       "West Europe",
-      "UK West",
-      "UK South",
       "Southeast Asia",
-      "East Asia",
-      "Australia East",
-      "Australia Southeast",
-      "Central India",
-      "West India",
-      "South India",
-      "Japan East",
-      "Japan West",
-      "Korea Central",
-      "Korea South"
+      "Australia Southeast"
     ]
   },
   {
@@ -2084,6 +2084,7 @@
     "name": "Time Series Insights",
     "regions": [
       "East US 2",
+      "West Central US",
       "West US",
       "North Europe",
       "West Europe"
@@ -2205,6 +2206,12 @@
       "Japan West",
       "Korea Central",
       "Korea South"
+    ]
+  },
+  {
+    "name": "Visual Studio App Center",
+    "regions": [
+      "Non-Regional"
     ]
   },
   {
