@@ -266,8 +266,10 @@
     "regions": [
       "East US",
       "South Central US",
+      "West US 2",
       "North Europe",
-      "West Europe"
+      "West Europe",
+      "Southeast Asia"
     ]
   },
   {
@@ -477,21 +479,7 @@
   {
     "name": "Bot Service",
     "regions": [
-      "East US 2",
-      "Central US",
-      "North Central US",
-      "South Central US",
-      "West US",
-      "West US 2",
-      "Brazil South",
-      "North Europe",
-      "West Europe",
-      "Southeast Asia",
-      "East Asia",
-      "Australia East",
-      "Australia Southeast",
-      "Japan East",
-      "Japan West"
+      "Non-Regional"
     ]
   },
   {
@@ -858,14 +846,6 @@
     ]
   },
   {
-    "name": "Dynamics 365 for Customer Insights",
-    "regions": [
-      "East US",
-      "South Central US",
-      "West US"
-    ]
-  },
-  {
     "name": "Emotion API",
     "regions": [
       "West US"
@@ -1197,13 +1177,20 @@
     ]
   },
   {
-    "name": "Language Understanding Intelligent Service",
+    "name": "Language Understanding (LUIS)",
     "regions": [
+      "East US",
       "East US 2",
+      "South Central US",
       "West Central US",
       "West US",
+      "West US 2",
+      "Brazil South",
+      "North Europe",
       "West Europe",
-      "Southeast Asia"
+      "Southeast Asia",
+      "East Asia",
+      "Australia East"
     ]
   },
   {
@@ -1582,10 +1569,31 @@
     "name": "Network Watcher",
     "regions": [
       "East US",
+      "East US 2",
+      "Central US",
+      "North Central US",
+      "South Central US",
       "West Central US",
+      "West US",
+      "West US 2",
+      "Canada East",
+      "Canada Central",
+      "Brazil South",
+      "North Europe",
       "West Europe",
+      "UK West",
+      "UK South",
       "Southeast Asia",
-      "Australia Southeast"
+      "East Asia",
+      "Australia East",
+      "Australia Southeast",
+      "Central India",
+      "West India",
+      "South India",
+      "Japan East",
+      "Japan West",
+      "Korea Central",
+      "Korea South"
     ]
   },
   {
